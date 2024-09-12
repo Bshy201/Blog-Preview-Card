@@ -24,8 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![assets/images/Blogss.png]
-
+![]assets/images/Blogss.png
 
 
 ### Links
