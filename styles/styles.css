@@ -31,6 +31,7 @@ main{
 }
 
 .panel-img {
+    cursor: pointer;
     border-radius: 1rem;
     display: block;
     margin-bottom: 1rem;
@@ -60,6 +61,15 @@ main{
     color: var(--bg-color);
 }
 
+.title:active {
+    opacity: 60%;
+}
+
+
+.subtext {
+    color: var(--Gray500);
+}
+
 .creator {
     display: flex;
 }
@@ -67,14 +77,20 @@ main{
     margin-right: 1rem;
 }
 
-.subtext {
-    color: var(--Gray500);
-}
-
 .pfp {
     height: 2.5rem;
+    cursor: pointer;
+}
+
+.pfp:active{
+    opacity: 50%;
 }
 
 .name {
     font-weight: var(--Font-800);
+}
+
+.name:hover {
+    color: var(--bg-color);
+    cursor: pointer;
 }
